@@ -1,3 +1,3 @@
 [build]
-  publish = ".next"
+  publish = "dist"
   command = "npm run build"
