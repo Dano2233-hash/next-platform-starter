@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+/* Custom premium gaming scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a2e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0066ff;
+}
+
+/* Custom smooth transition utilities */
+.transition-premium {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 15px rgba(0, 102, 255, 0.3);
+}
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+}
+.glow-purple {
+  box-shadow: 0 0 15px rgba(112, 0, 255, 0.3);
+}
+.glow-text-cyan {
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+}
