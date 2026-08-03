@@ -1,3 +1,5 @@
-[build]
-  publish = ".next"
-  command = "npm run build"
+/* Netlify redirects for SPA */
+/* Always redirect everything to index.html so React Router takes over */
+/* Refer: https://docs.netlify.com/routing/redirects/ */
+/* */
+/* NOTE: Next.js starter files have been removed, clean React SPA */
