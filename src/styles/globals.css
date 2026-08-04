@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gaming-bg: #050505;
+  --color-gaming-card: #0c0d12;
+  --color-gaming-border: #1a1e29;
+  --color-accent-blue: #0066ff;
+  --color-accent-cyan: #00e5ff;
+  --color-accent-purple: #7000ff;
+}
+
+body {
+  background-color: var(--color-gaming-bg);
+  color: #f3f4f6;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Custom scrollbar for beautiful dark styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
