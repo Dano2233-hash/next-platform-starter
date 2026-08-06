@@ -1,0 +1,12 @@
+/* SPA Routing redirect fallback for Netlify static deployment */
+/* Redirects all routes to index.html to allow client-side react-router-dom SPA routing */
+/* This is loaded automatically by Netlify static server */
+/* More info: https://docs.netlify.com/routing/redirects/ */
+
+/* Redirect syntax */
+/* From   To             Status */
+/* *      /index.html    200    */
+
+/* Real configuration */
+/* Every request is redirected to the root index.html with a 200 OK status to let React handle the page routing */
+/* Exceptions like /assets/* can be served directly by Netlify */
