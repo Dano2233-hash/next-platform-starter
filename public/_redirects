@@ -1,0 +1,2 @@
+/*   Redirect all routes to index.html for SPA router support   */
+/*   /index.html   200
