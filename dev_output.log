@@ -1,0 +1,11 @@
+
+> dano-store@1.0.0 dev
+> vite
+
+
+  VITE v6.4.3  ready in 231 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.0.2:3000/
+3:56:54 AM [vite] (client) hmr update /src/pages/OrderSuccess.jsx, /src/styles/globals.css
+3:58:23 AM [vite] (client) page reload src/verify_script.py
