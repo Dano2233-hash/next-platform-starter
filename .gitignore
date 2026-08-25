@@ -38,3 +38,5 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+dist
+dev_output.log
