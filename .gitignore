@@ -1,19 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# next.js
+# build output
+/dist
+/build
 /.next/
 /out/
 
-# production
-/build
+# testing
+/coverage
 
 # misc
 .DS_Store
@@ -29,12 +26,6 @@ yarn-error.log*
 .env*
 !.env.example
 
-# vercel
+# vercel & netlify
 .vercel
-
-# stackbit
-.cache
-.stackbit/cache
-
-# Local Netlify folder
 .netlify
