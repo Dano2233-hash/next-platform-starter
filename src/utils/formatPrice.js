@@ -1,0 +1,12 @@
+/**
+ * Formats a numeric price into IQD currency format
+ * @param {number} amount
+ * @returns {string} e.g. "15,000 IQD"
+ */
+export function formatPrice(amount) {
+  if (amount === undefined || amount === null || isNaN(amount)) {
+    return '0 IQD';
+  }
+  const formatted = new Intl.NumberFormat('en-US').format(amount);
+  return `${formatted} IQD`;
+}

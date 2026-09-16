@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Rajdhani', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    background-color: #050508;
+    color: #f1f5f9;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0066ff;
+}
+
+/* Custom glow utility effects */
+.glow-cyan {
+  box-shadow: 0 0 20px -5px rgba(0, 229, 255, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px -5px rgba(0, 102, 255, 0.25);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px -5px rgba(112, 0, 255, 0.25);
+}
+
+.border-glow-cyan {
+  box-shadow: inset 0 0 10px rgba(0, 229, 255, 0.15), 0 0 15px rgba(0, 229, 255, 0.1);
+}
