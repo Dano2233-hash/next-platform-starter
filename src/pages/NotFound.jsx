@@ -1,0 +1,23 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Gamepad2, ArrowLeft } from 'lucide-react';
+
+export default function NotFound() {
+  return (
+    <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 py-16 space-y-4">
+      <div className="w-20 h-20 rounded-3xl bg-slate-900 border border-slate-800 flex items-center justify-center text-cyan-400">
+        <Gamepad2 className="w-10 h-10" />
+      </div>
+      <h1 className="text-4xl font-black text-slate-100">404 - Page Not Found</h1>
+      <p className="text-xs text-slate-400 max-w-sm leading-relaxed">
+        Oops! The page you are looking for does not exist or has been moved.
+      </p>
+      <Link
+        to="/"
+        className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-600 to-cyan-500 text-slate-950 font-black text-xs shadow-lg shadow-cyan-950/50"
+      >
+        <ArrowLeft className="w-4 h-4" /> Return to Dano Store
+      </Link>
+    </div>
+  );
+}
