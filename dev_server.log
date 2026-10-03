@@ -1,0 +1,8 @@
+
+> dano-store@1.0.0 dev
+> vite --host 127.0.0.1 --port 3000
+
+
+  VITE v5.4.21  ready in 373 ms
+
+  ➜  Local:   http://127.0.0.1:3000/
