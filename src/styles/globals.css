@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #05070f;
+    color: #f1f5f9;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar for dark gaming look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0066ff;
+}
+
+/* Glassmorphic cards */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.25s ease-in-out;
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(0, 229, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 102, 255, 0.15);
+  transform: translateY(-2px);
+}
