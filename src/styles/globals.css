@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #05070f;
+    color: #f1f5f9;
+  }
+}
+
+/* Custom scrollbar for modern gaming look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Custom animation classes if needed */
+.glow-cyan {
+  box-shadow: 0 0 20px -5px rgba(0, 229, 255, 0.3);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px -5px rgba(0, 102, 255, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px -5px rgba(112, 0, 255, 0.3);
+}
